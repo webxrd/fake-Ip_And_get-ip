@@ -20,8 +20,8 @@ let headers = {
     Accept: 'application/json, text/plain, */*',
     "Content-Type": 'applications/json:charset=UTF-8',
     "no-cookie": 1,
-    "Origin": "https://v.abc.com",// 可有可无，最好对应X-Forwarded-For的ip
-    "Referer": "https://abc.com",// 可有可无，最好对应X-Forwarded-For的ip
+    // "Origin": "https://v.abc.com",// 可有可无，最好对应攻击的网站地址
+    // "Referer": "https://abc.com",// 可有可无，最好对应攻击的网站地址
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3724.8 Safari/537.36"
 };
 
